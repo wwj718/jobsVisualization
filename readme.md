@@ -12,7 +12,7 @@ Inspired by [bokeh example app movies](https://github.com/bokeh/bokeh/tree/0.11.
 
 
 # demo
-<jobs.just4fun.site/sanchi>
+jobs.just4fun.site/sanchi
 
 ![demo](http://7xrc4h.com1.z0.glb.clouddn.com/jobs.gif)
 
