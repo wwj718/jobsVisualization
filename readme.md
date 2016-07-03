@@ -35,13 +35,14 @@ mac OSX python2.7
     *  自行编译dockerfile（基于pandas）,看看其他python库如何编译
 	    *  https://github.com/Jim-Holmstroem/docker-bokeh
 	    *  如何映射目录
-*
+
+
 ### 优化
 计算在server，交互在client，往返传输数据太大,响应迟钝
 
 ### 策略
 1.  思路1：原始数据存在浏览器端，远程用pandas做分析，只传输item_id
-2.  思路2：爬虫的爬取结果允许可下载，项目跑在本地，远程响应速度太慢
+2.  思路2：爬虫的爬取结果允许下载，项目跑在本地，远程响应速度太慢
 
 
 
