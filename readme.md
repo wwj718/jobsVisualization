@@ -8,6 +8,7 @@ Inspired by [bokeh example app movies](https://github.com/bokeh/bokeh/tree/0.11.
 *  virtualenv jobs_env
 *  . jobs_env/bin/activate
 *  pip install -r  jobsVisualization/requirements.txt
+  *  为了加快安装进度你可以：pip install -r jobsVisualization/requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com 
 *  bokeh serve --show  jobsVisualization
 
 
