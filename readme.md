@@ -61,7 +61,7 @@ cp -r `bokeh info --static` /home/wwj/jobsVisualization/static
 ```
 
 
-启动进程：`bokeh serve  jobs --host jobs.just4fun.site --port 5100`
+启动进程：`bokeh serve  jobsVisualization --host jobs.just4fun.site --port 5100`
 
 nginx反向代理：
 
