@@ -25,6 +25,7 @@ mac OSX python2.7
     *  来自于我的爬虫项目:[jobSpider](https://github.com/wwj718/jobSpider)
 *  pandas
 *  bokeh 0.11.1
+*  在ubuntu下可能需要python-dev
 
 
 # 浏览器兼容性
