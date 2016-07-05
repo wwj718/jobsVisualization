@@ -5,7 +5,7 @@ Inspired by [bokeh example app movies](https://github.com/bokeh/bokeh/tree/0.11.
 
 # Usage(local/dev)
 *  git clone  https://github.com/wwj718/jobsVisualization
-*  virualenv jobs_env
+*  virtualenv jobs_env
 *  . jobs_env/bin/activate
 *  pip install -r  jobsVisualization/requirements.txt
 *  bokeh serve --show  jobsVisualization
