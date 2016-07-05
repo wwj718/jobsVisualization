@@ -5,16 +5,17 @@ Inspired by [bokeh example app movies](https://github.com/bokeh/bokeh/tree/0.11.
 
 # Usage(local/dev)
 *  git clone  https://github.com/wwj718/jobsVisualization
-*  virualenv jobs_env
+*  virtualenv jobs_env
 *  . jobs_env/bin/activate
 *  pip install -r  jobsVisualization/requirements.txt
+  *  为了加快安装进度你可以：pip install -r jobsVisualization/requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com 
 *  bokeh serve --show  jobsVisualization
 
 
 # demo
-<jobs.just4fun.site/sanchi>
+jobs.just4fun.site/sanchi
 
-![demo](http://7xrc4h.com1.z0.glb.clouddn.com/jobs.gif)
+![demo](./jobs.gif)
 
 # 开发环境
 mac OSX python2.7
@@ -35,13 +36,14 @@ mac OSX python2.7
     *  自行编译dockerfile（基于pandas）,看看其他python库如何编译
 	    *  https://github.com/Jim-Holmstroem/docker-bokeh
 	    *  如何映射目录
-*
+
+
 ### 优化
 计算在server，交互在client，往返传输数据太大,响应迟钝
 
 ### 策略
 1.  思路1：原始数据存在浏览器端，远程用pandas做分析，只传输item_id
-2.  思路2：爬虫的爬取结果允许可下载，项目跑在本地，远程响应速度太慢
+2.  思路2：爬虫的爬取结果允许下载，项目跑在本地，远程响应速度太慢
 
 
 
@@ -59,7 +61,7 @@ cp -r `bokeh info --static` /home/wwj/jobsVisualization/static
 ```
 
 
-启动进程：`bokeh serve  jobs --host jobs.just4fun.site --port 5100`
+启动进程：`bokeh serve  jobsVisualization --host jobs.just4fun.site --port 5100`
 
 nginx反向代理：
 
