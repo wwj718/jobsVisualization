@@ -13,7 +13,7 @@ Inspired by [bokeh example app movies](https://github.com/bokeh/bokeh/tree/0.11.
 
 
 # demo
-jobs.just4fun.site/jobsVisualization (数据比较多，可能要加载一会儿，这是个待优化地方)
+jobs.just4fun.site/jobsVisualization (建议用chrome打开，数据比较多，可能要加载一会儿，这是个待优化地方)
 
 ![demo](./jobs.gif)
 
