@@ -94,6 +94,6 @@ server {
 
 
 # 代码风格
-采用gogole的yapf来统一代码风格
+采用google的[yapf](https://github.com/google/yapf)来统一代码风格
 
 yapf -i filename.py
