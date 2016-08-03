@@ -6,6 +6,7 @@
 ### gitflow
 *  git flow init
 *  git flow feature start pandas_fix_utf_8
+*  git flow feature publish pandas_fix_utf_8
 *  git flow feature finish pandas_fix_utf_8
 *  git flow release start release-20160629 develop
 *  git flow release list
