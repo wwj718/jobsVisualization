@@ -3,7 +3,7 @@
 
 Inspired by [bokeh example app movies](https://github.com/bokeh/bokeh/tree/0.11.1/examples/app/movies)
 
-该项目的的可视化和交互部分由bokeh驱动，近期@[DonaldDai](https://github.com/DonaldDai)同学在做bokeh的翻译工作,欢迎大家参与。项目地址为：[Bokeh-CN](https://github.com/DonaldDai/Bokeh-CN)
+该项目的的可视化和交互部分由bokeh驱动，近期@[DonaldDai](https://github.com/DonaldDai)同学在做bokeh文档的翻译工作,欢迎大家参与。项目地址为：[Bokeh-CN](https://github.com/DonaldDai/Bokeh-CN)
 
 # Usage(local/dev)
 *  git clone  https://github.com/wwj718/jobsVisualization
