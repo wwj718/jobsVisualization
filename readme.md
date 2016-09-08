@@ -1,4 +1,4 @@
-# jobs
+# jobsVisualization
 可视化筛选你中意的工作。
 
 Inspired by [bokeh example app movies](https://github.com/bokeh/bokeh/tree/0.11.1/examples/app/movies)
